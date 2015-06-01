@@ -9,6 +9,6 @@ Simple, purpose built Alpine Linux container for connecting to Found elastic ins
 
 Required ENV vars:
 
-* ACCEPT_STRING - local listenting ip and port. [Default 127.0.0.1:6379]
+* ACCEPT_STRING - local listenting ip and port. [Default 127.0.0.1:19200]
 * CONNECT_STRING - Remote connection host and port  
 
