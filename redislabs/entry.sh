@@ -13,6 +13,8 @@ cert = /etc/stunnel/user.crt
 key = /etc/stunnel/user_private.key
 cafile = /etc/stunnel/ca.pem
 verify = 2
+socket = l:TCP_NODELAY=1
+socket = r:TCP_NODELAY=1
 delay = yes
 foreground=yes
 
